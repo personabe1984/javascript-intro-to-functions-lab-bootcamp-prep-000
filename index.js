@@ -4,26 +4,28 @@ function shout(string) {
 
 
 function whisper(string) {
-  //recieves one argument and returns it in all lower case
+  return string.toLowerCase();
 }
 
 
 function logShout(string) {
-  //calls console.log() its one argument in all caps
+  console.log(shout(string));
 }
 
 function logWhisper(string) {
-  //calls console.log() its one argumentin all lowercase:
-
+  console.log(whisper(string));
 }
 
 
 function sayHiToGrandma(string){
-  //returns "YES INDEED!" if `string` is uppercase:  
+  if(string === shout(string)){
+    return "YES INDEED!";
+  }
 }
 
 
-sayHiToGrandma(string) {
-  
+function sayHiToGrandma(string) {
+  if(string === "I love you, Grandma."){
+    return "I love you, too."
+  }
 }
-//returns "I love you, too." if `string` is "I love you, Grandma."`:

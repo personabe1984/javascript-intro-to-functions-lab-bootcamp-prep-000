@@ -12,4 +12,10 @@ function logShout(string) {
   //calls console.log() its one argument in all caps
 }
 
+function logWhisper(string) {
+  
+}
+
+calls console.log() its one argumentin all lowercase:
+
 sayHiToGrandma(string)

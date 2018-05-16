@@ -13,9 +13,9 @@ function logShout(string) {
 }
 
 function logWhisper(string) {
-  
+  //calls console.log() its one argumentin all lowercase:
+
 }
 
-calls console.log() its one argumentin all lowercase:
 
 sayHiToGrandma(string)

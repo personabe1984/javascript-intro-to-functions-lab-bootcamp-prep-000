@@ -6,3 +6,5 @@ function shout(string) {
 whisper(string)
 
 sayHiToGrandma(string)
+
+logShout(string)

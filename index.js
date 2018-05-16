@@ -19,12 +19,14 @@ function logWhisper(string) {
 
 function sayHiToGrandma(string){
   if(string === whisper(string)) {
-    return 
+    return "I can\'t hear you!";
+  }else if(string === shout(string)) {
+    return "YES INDEED!";
+  }else if
+    
   }
   
-  if(string === shout(string)){
-    return "I can\'t hear you!";
-  }
+
 }
 
 
@@ -34,13 +36,7 @@ function sayHiToGrandma(string) {
   }
 }
 /*
-it('returns "I can\'t hear you!" if `string` is lowercase', function() {
-    expect(sayHiToGrandma('hello')).toEqual("I can't hear you!")
-  })
 
-  it('returns "YES INDEED!" if `string` is uppercase', function() {
-    expect(sayHiToGrandma('HELLO')).toEqual("YES INDEED!")
-  })
 
   it('returns "I love you, too." if `string` is "I love you, Grandma."`', function() {
     expect(sayHiToGrandma("I love you, Grandma.")).toEqual("I love you, too.")
